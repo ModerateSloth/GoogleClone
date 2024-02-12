@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Poodle Search</title>
+		<meta name="viewport" content="width=device-width, initial-scale=3">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="adstyle.css">
+    </head>
+    <body>
+		<input id="darkSwitch" type ="checkbox" style = "float: left;">
+		<div id = "pageColor">
+		<br>
+		<label id = "darkFont" for="darkSwitch" style="float: left; cursor: pointer;"> <i class="material-icons" style="font-size: 50px;">&#xe3ab;</i> </label>
+		<label id = "lightFont" for="darkSwitch" style="float: left; cursor: pointer;"> <i class="material-icons" style="font-size: 50px;">&#xe3ab;</i> </label>
+			<a href="index.html" style="float: right; padding-right: 20px; font-size: 17px;"> Home Page </a>
+			<div id = "logo">
+			<h1 style = "line-height: 0px;"><strong>
+					<span style="font-family: 'Product Sans',sans-serif;font-size:30px; letter-spacing:-5px; align: top-left;">
+						<span class="p-blue">P</span>
+						<span class="o-red">o</span>
+						<span class="o-yellow">o</span>
+						<span class="d-blue">d</span>
+						<span class="l-green">l</span>
+						<span class="e-red">e</span>
+					</span>
+			</strong></h1>
+			</div>
+			<br>
+			<h2 style="font-family: 'Product Sans',sans-serif; color: red; font-weight: 100; padding-left: 20px;">Advanced Search</h2>
+			<hr>
+			<p style = "padding-left: 20px;float:left;">Find pages with…</p>
+			<p style = "padding-left: 300px;float:left;line-height: 22px;"> To do this in the search box</p>
+			<br><br><br>
+			<div id = "inText">
+				<p>	All these words: </p>
+				<p>	This exact word or phrase: </p>
+				<p>	Any of these words: </p>
+				<p>	None of these words: </p>
+			</div>
+			<div id = "inputs">
+			<form id="advanceBar" action="https://www.google.com/search">
+				<br>
+				<input type="text" name="as_q">
+				<p></p>
+				<input type="text" name="as_epq">
+				<p></p>
+				<input type="text" name="as_oq">
+				<p></p>
+				<input type="text" name="as_eq">
+				<p></p>
+				<input type="submit" value="Advanced Search" id = "submitSearch">
+			</form>
+			</div>
+			<!--Text taken from google's advanced search page but can be removed-->
+			<div id = "extraText">
+				<p>	Type the important words:  tricolor rat terrier </p>
+				<p>	Put exact words in quotes:  "rat terrier" </p>
+				<p>	Type OR between all the words you want:  miniature OR standard </p>
+				<p>	Put a minus sign just before words you don't want:  -rodent, -"Jack Russell" </p>
+			</div>
+		</div>
+    </body>
+</html>

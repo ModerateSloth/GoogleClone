@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Poodle Search</title>
+		<!--https://www.w3schools.com/icons/google_icons_image.asp is the source for google icons-->
+		<meta name="viewport" content="width=device-width, initial-scale=3">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+		<input id="darkSwitch" type ="checkbox" style = "float: left;">
+		<label id = "darkFont" for="darkSwitch" style="float: left; cursor: pointer;"> <i class="material-icons" style="font-size: 50px;">&#xe3ab;</i> </label>
+		<label id = "lightFont" for="darkSwitch" style="float: left; cursor: pointer;"> <i class="material-icons" style="font-size: 50px;">&#xe3ab;</i> </label>
+		
+		<div id = "pageColor">
+			<br>
+			<a href="image.html" style="float: right; padding-right: 20px; font-size: 17px;"> Image Search </a>
+			<a href="advance.html" style="float: right; padding-right: 20px; font-size: 17px;"> Advanced Search </a>
+			<div id="engine">
+				<!--a lot of help from w3schools tutorials-->
+				<h1><strong>
+					<span style="font-family: 'Product Sans',sans-serif;font-size:100px; letter-spacing:-15px;">
+						<span class="p-blue">P</span>
+						<span class="o-red">o</span>
+						<span class="o-yellow">o</span>
+						<span class="d-blue">d</span>
+						<span class="l-green">l</span>
+						<span class="e-red">e</span>
+					</span>
+				</strong></h1>
+				<form action="https://www.google.com/search">
+					<input id = "searchBar" type="text" name="q">
+					<br></br>
+					<input type="submit" value="Poodle Search" style = "cursor: pointer;">
+					<input type="submit" name="btnI" name = "sourceid=navclient" name = "gfns=1" value="I'm Feeling Lucky" style = "cursor: pointer;">
+				</form>
+			</div>
+		</div>
+    </body>
+</html>
