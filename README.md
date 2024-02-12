@@ -1,6 +1,9 @@
 # GoogleClone
 Google clone known as Poodle is a clone of google that only has features that look similar but will be missing some features.
 
+Link to check out the page. This was done in only HTML5 and CSS3.
+https://moderatesloth.github.io/GoogleClone/
+
 By Anthony Nguyen
 Sources and Links:
 https://stackoverflow.com/questions/63040965/how-do-i-create-a-link-to-google-image-search-via-html-form
